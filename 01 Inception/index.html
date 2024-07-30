@@ -11,17 +11,19 @@
     <title>Namaste React</title>
 </head>
 
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!-- Injected external js file -->
 <body>
     <div>TOP</div>
-    <div id="root">Not rendered
+    <div id="root">
+        Not rendered
         <h1>HEADING</h1> <!--  it will get replace just keep refreshing page for better view -->
     </div>
     <!-- Injectd React and ReactDOM using CDN -->
     <div>BOTTOM</div>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-    <!-- Injected external js file -->
+   
     <script src="App.js"></script>
 </body>
 

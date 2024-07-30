@@ -11,11 +11,11 @@ const heading = React.createElement(
         React.createElement("h3", {}, "I'm a h3 tag")])
     ,React.createElement(
         "div", 
-        { id: "child" },
+        { class: "wild" },
         //Siblings in an array
-        [React.createElement("h1", {}, "I'm a h1 tag"),
-        React.createElement("h2", {}, "I'm a h2 tag"),
-        React.createElement("h3", {}, "I'm a h3 tag")])]
+        [React.createElement("h1", {}, "I'm a h1 sibling tag"),
+        React.createElement("h2", {}, "I'm a h2 sibling tag"),
+        React.createElement("h3", {}, "I'm a h3 sibling tag")])]
 );
 console.log("printing heading :- ",heading);//what to display?
 
