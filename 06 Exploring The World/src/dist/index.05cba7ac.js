@@ -29540,6 +29540,6 @@ const restaurantList = [
     }
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["djQtB","1xC6H","2kQhy"], "2kQhy", "parcelRequire414c")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["djQtB","1xC6H","2kQhy"], "2kQhy", "parcelRequire3687")
 
 //# sourceMappingURL=index.05cba7ac.js.map
